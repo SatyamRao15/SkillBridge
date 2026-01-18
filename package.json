@@ -1,0 +1,13 @@
+{
+  "name": "skillbridge-group2",
+  "version": "1.0.0",
+  "description": "SkillBridge fullstack project",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm start",
+    "client": "cd frontend/Skillbridge && npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
